@@ -15,6 +15,8 @@ public class SquareCalculator {
         this.width = width;
     }
 
-
+    public int calculateArea() {
+        return this.width*this.width;
+    }
 
 }
