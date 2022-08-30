@@ -24,5 +24,8 @@ public class Square {
     public int calculateAreaSqu() {
         return this.height*this.weight;
     }
-
+    public Square(int height,int weight){
+        this.height=height;
+        this.weight=weight;
+    }
 }

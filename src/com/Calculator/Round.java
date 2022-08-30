@@ -14,5 +14,8 @@ public class Round {
     public int calculateAreaRou() {
         return this.radius*this.radius*22/7;
     }
+    public Round(int radius){
+        this.radius=radius;
 
+    }
 }

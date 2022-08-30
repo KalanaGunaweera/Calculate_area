@@ -25,4 +25,11 @@ public class Triangle {
         return this.base*this.height*(1/2) ;
     }
 
+    public Triangle(int base,int height){
+        this.height=height;
+        this.base=base;
+
+
+    }
+
 }
